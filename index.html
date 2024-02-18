@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bax Shadow</title>
+    <style>
+        .boxshadow{
+            width: 200px;
+            height: 200px;
+            border: 3px solid rgb(0, 0, 0);
+            margin: auto;
+            margin-top: 30px;
+            box-sizing: border-box; /* Kutunun taşmasını önlemek için yazıyoruz */
+            box-shadow: 20px 10px 10px 50px rgb(192, 250, 78); /* Box-shadow kutuya gölge verir. Yazdığımız birinci değer sağ kenara ikinci değer alt tarafa gölge verir ve 3. değer ise keskinlik değeri işlemidir. Eğer 1. işleme eksi değer verirsek sağdan sol kenara gelir gölge 2. değere eksi verirsek alttan üst tarafa kayar. Eğer 4. bir değer yazarsak bu dördüncü değer bütün kenarlara gölgelendirme efekti verir. */
+        }
+        .textshadow{
+            text-shadow: 0px 0px 5px rgb(192, 250, 78);
+            text-align: center;
+            color: rgb(192, 250, 78);
+            background-color: black;
+        }
+    </style>
+</head>
+<body>
+    <div class="boxshadow"></div> <br><br><br>
+    <h1 class="textshadow">NEOS YAZILIM AKADEMİ</h1>
+</body>
+</html>
